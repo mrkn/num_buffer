@@ -1,0 +1,4 @@
+num_buffer_dir = $(srcdir)/../../
+num_buffer_includedir = $(num_buffer_dir)/include
+
+num_buffer.o: $(num_buffer_includedir)/num_buffer.h
