@@ -1,0 +1,9 @@
+- [*] `num_buffer/mkmf.rb`
+- [ ] `NumBuffer#[]`
+- [ ] `NumBuffer#[]=`
+- [ ] transpose
+- [ ] type conversion
+- [ ] partial accessor
+- [ ] indirect access support
+- [ ] packed element support
+- [ ] ffi support
