@@ -1,8 +1,6 @@
 # NumBuffer
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/num_buffer`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+NumBuffer is thin layer to represent numerical tensor data.  Using NumBuffer, you can exchange that types of data among libraries.
 
 ## Installation
 
@@ -23,6 +21,10 @@ Or install it yourself as:
 ## Usage
 
 TODO: Write usage instructions here
+
+- The following things should be described here:
+    - Write `require 'num_buffer/mkmf'` in your extconf.rb
+    - `#include <num_buffer.h>`
 
 ## Development
 
