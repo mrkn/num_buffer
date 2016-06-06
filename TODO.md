@@ -1,4 +1,11 @@
 - [*] `num_buffer/mkmf.rb`
+- [ ] Separate concrete class by the element data types:
+    - NumBuffer::Int{8,16,32,64,128}Buffer
+    - NumBuffer::Uint{8,16,32,64,128}Buffer
+    - NumBuffer::Float{16,32,64}Buffer
+    - NumBuffer::ObjectBuffer
+    - NumBuffer::StructBuffer
+      - NumBuffer::Complex{16,32,64}Buffer
 - [ ] `NumBuffer#[]`
 - [ ] `NumBuffer#[]=`
 - [ ] transpose
